@@ -6,7 +6,7 @@ export const ProductItem = ({ product }) => {
     const { addToCart } = useContext(ProductContext);
     return (
         <div className="product" key={product.id}>
-        <img src={`/public/images/broom.jpeg/${product.image}`} alt={product.name} />
+        <img src={`/public/images/${product.image}`} alt={product.name} />
         <div className="product-details">
             <p className="product-name">{product.name}</p>
             <p className="product-price">{product.price}</p>

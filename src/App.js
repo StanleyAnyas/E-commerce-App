@@ -10,13 +10,13 @@ import { ProductList } from './components/ProductList';
 function App() {
   return (
     <div className="App">
-      <ProductProvider>
-       <ProductItem />
+        <ProductProvider>
         <ProductList />
         <Cart />
-        <CartItems />
         <CartItem />
-      </ProductProvider>
+        <ProductItem />
+        <CartItems />
+        </ProductProvider>
     </div>
   );
 }
