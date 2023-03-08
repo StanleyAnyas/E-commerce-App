@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="App">
         <ProductProvider>
-        <ProductList />
-        <Cart />
-        <CartItem />
-        <ProductItem />
-        <CartItems />
+          <ProductList />
+          <Cart />
+          <CartItems />
+          <CartItem />
+          <ProductItem />
         </ProductProvider>
     </div>
   );
